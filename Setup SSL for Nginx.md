@@ -18,11 +18,12 @@ ssl_session_timeout    10m;
 ssl_ciphers  HIGH:!aNULL:!MD5;
 ssl_prefer_server_ciphers on;
 ```
+#### save the file and restart the Service
 ```
 sudo cp /tmp/nautilus.crt /etc/pki/CA/certs && sudo cp /tmp/nautilus.key  /etc/pki/CA/private
 sudo systemctl restart nginx && sudo systemctl enable nginx
 sudo echo  Welcome!> >index.html
 sudo mv index.html /usr/share/nginx/html
 sudo yum install curl -y
-curl -Ik https://172.16.238.
+curl -Ik https://172.16.238.10  ## use ip of app server
 ```
