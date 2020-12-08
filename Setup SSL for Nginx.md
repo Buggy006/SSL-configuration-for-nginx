@@ -12,7 +12,7 @@ sudo yum install  -y nginx
 sudo vi /etc/nginx/nginx.conf
 ````
 #### Place Below commands in nginx.conf file as Shown in a image 
-![image](https://lh5.googleusercontent.com/1w12aXqUd2SmwlTpZtS0SMZYATznYrIS5QBwQDiOQtTkdpT3Ol7e64rawS-C8D24lLyww_Gv2VDTT0xEYL0xqd5tZJcnN5fnAinrlx0T)
+![image](https://lh4.googleusercontent.com/VW6pKQk-PAUAoe3QldQDyV64L4kDZIuYwY8xdA8c-EXRe9t2Ed7f_OANNW8WgWGePHB0ARCJY3TeMVwJPeuiTBWnCFBbHUKr5oZ5jCq9c0VOR9V3V8X5iZgc3cCe7vpKv9drpz2P)
 ```
 ssl_certificate  "/etc/pki/CA/certs/nautilus.crt";
 ssl_certificate_key  "/etc/pki/CA/private/nautilus.key";
